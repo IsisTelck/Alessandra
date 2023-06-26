@@ -1,0 +1,30 @@
+.cabeçalho{
+background-color: rgb(18, 76, 126);
+width: auto;
+height: 150px;
+font-size: 40px;
+}
+
+.conteudo{
+background-color: rgb(181, 188, 193);
+width: auto;
+height: 500px;
+text-align: center;
+}
+
+.rodapé{
+background-color: rgb(122, 9, 160);
+width: auto;
+height: 150px;
+text-align: center;
+}
+
+div{
+    text-align: left;
+}
+
+img{
+  width: 140px;
+  height: 140px; 
+  align-items: right;
+}
