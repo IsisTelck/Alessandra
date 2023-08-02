@@ -1,0 +1,121 @@
+header{
+    background:#e6e1da;
+    padding:20px;
+}
+
+#logo{
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+#logo2{
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #919191;
+}
+
+@font-face {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circe'), url('CRC55.woff') format('woff');
+    }
+    
+.titulo-principal{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-10%, -50%);
+    font-size: 100px;
+    font-family: circe;
+    color: #838383;
+    font-family: 'circe';
+    color: 0000;
+    text-shadow: 
+                -1px -1px 0px #bdb8b1,
+                -1px 4px 0px #bdb8b1,
+                 1px 1px 0px #bdb8b1,
+                 1px 1px 0px #bdb8b1;
+}
+
+nav{
+    position: absolute;
+    /*posicionamento dos links*/
+    top: 180px;
+    right: 50px;
+}
+
+nav li{
+   display:inline;
+   margin: 0 0 0 15px; 
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #919191;
+    /*font-weight:bold;*/
+    font-size: 22px;
+    text-decoration: none;
+    /*sem linha embaixo do link*/
+    font-family: circe;
+}
+
+nav a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 40px 0; /*margem superior de 40px,para os lados zero*/
+}
+
+form label, form p{/*vamos replicar a mesma configuração do form label para o parágrafo, por isso, o uso da vírgula*/
+        display: block;
+        font-size: 20px;
+        margin: 0 0 10px; /*10px para baixo*/
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px; /*20px para baixo*/
+    padding: 10px 25px; /*10px p/cima e p/baixo, 25px p/ os lados*/
+    width: 50%; /*largura dos meus inputs*/
+}
+
+.copyright{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    margin: 10px 0 0;
+}
+
+footer{
+    text-align: center;
+    background-image: linear-gradient(to top, black, #ffffff);
+    /*Esta propriedade é utilizada para inserir imagens como plano de fundo de um elemento.
+    Para isso,fazemos uso da função url(), para a qual passamos coo parâmetro o caminho da imagem a ser inserida*/
+    /*ou background-image: url("");
+    é utilizada para inserir imagens como plano de fundo de um elemento.
+    Para isso, fazemos uso da função url('')*/
+
+    padding: 10px 0;
+
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(195, 48, 48);
+}
+
+h2{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(195, 48, 48);
+}
