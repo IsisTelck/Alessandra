@@ -1,46 +1,124 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title> Contato </title>
-        <link rel="stylesheet" href="contato.css">
-        <link rel="stylesheet" href="reset.css">
-        
-    </head>
- <body>
-        <header>
-            <img id="logo" src="logo velas.png">
-            <h1 class="titulo-principal"> Candle&Pottery</h1>
+header{
+    background:#203550;
+    padding:10px;
+}
 
-            <nav>
-                <ul>
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="produtos.html">Produtos</a></li>
-                      <li><a href="contato.html">contato</a></li>
-  
-                </ul>
-              </nav>
+#logo{
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
 
-        </header>
-       <h2> Quem somos?</h2>
- <p>
-            Somos um grupo apaixonado por artesanato e especializados em oferecer velas aromáticas e artigos artesanais.
-            Na nossa loja, você encontrará tudo o que precisa no ramo de velas únicas e perfumadas, vasos de porcelana,
-             incensos e óleos essenciais . 
-            Trabalhamos apenas com produtos de qualidade, garantindo que você obtenha resultados incríveis em seus projetos.
-            Além disso, nossa equipe está sempre pronta para auxiliar e tirar todas as suas dúvidas.
-             Temos um atendimento profissional e personalizado, visando proporcionar a melhor experiência de compra para você.
-             Não perca tempo e venha conhecer o nosso trabalho!. 
-             Garanto que você vai se encantar com a variedade de produtos e com a qualidade do nosso atendimento. </p>
+#logo2{
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    
+}
 
+@font-face {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circe'), url('CRC55.woff') format('woff');
+    }
+    
+.titulo-principal{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-10%, -50%);
+    font-size: 100px;
+    font-family: circe;
+    color: #c0a34e;
+    font-family: 'circe';
+    color: 0000;
+    text-shadow: 
+                -1px -1px 0px #7a6950,
+                -1px 4px 0px #7a6950,
+                 1px 1px 0px #7a6950,
+                 1px 1px 0px #7a6950;
+}
 
+nav{
+    position: absolute;
+    /*posicionamento dos links*/
+    top: 180px;
+    right: 50px;
+}
 
+nav li{
+   display:inline;
+   margin: 0 0 0 15px; 
+}
 
-        <br>
-        <footer>
-            <img id="logo2" src="logo velas.png">
-            <p class="copyright">&copy; Copyright -- Ìsis Goulart Telck.Juliana Schlindwein, Luiza Salvador e Ana Luiza</p>
+nav a{
+    text-transform: uppercase;
+    color: #e7f1e4;
+    /*font-weight:bold;*/
+    font-size: 22px;
+    text-decoration: none;
+    /*sem linha embaixo do link*/
+    font-family: circe;
+}
 
-        </footer>
-    </body>
-</html>
+nav a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 40px 0; /*margem superior de 40px,para os lados zero*/
+}
+
+form label, form p{/*vamos replicar a mesma configuração do form label para o parágrafo, por isso, o uso da vírgula*/
+        display: block;
+        font-size: 20px;
+        margin: 0 0 10px; /*10px para baixo*/
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px; /*20px para baixo*/
+    padding: 10px 25px; /*10px p/cima e p/baixo, 25px p/ os lados*/
+    width: 50%; /*largura dos meus inputs*/
+}
+
+.copyright{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    margin: 10px 0 0;
+}
+
+footer{
+    text-align: center;
+    background-image: linear-gradient(to top, #b39973, #f1ece4);
+    /*Esta propriedade é utilizada para inserir imagens como plano de fundo de um elemento.
+    Para isso,fazemos uso da função url(), para a qual passamos coo parâmetro o caminho da imagem a ser inserida*/
+    /*ou background-image: url("");
+    é utilizada para inserir imagens como plano de fundo de um elemento.
+    Para isso, fazemos uso da função url('')*/
+
+    padding: 10px 0;
+
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
+    color: #203550;
+}
+
+h2{
+    text-align: center;
+    font-size: 70px;
+    color:#203550;
+}
+body{
+     background: #f1ece4;
+}
