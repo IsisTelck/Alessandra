@@ -1,10 +1,10 @@
 header{
     background:#203550;
-    padding:10px;
+    padding:20px;
 }
 
 #logo{
-    border-radius: 10px;
+    border-radius: 5px;
     width: 250px;
     height: 250px;
 }
@@ -15,7 +15,12 @@ header{
     height: 150px;
     
 }
-
+#logo3{
+    border-radius: 120px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #919191;
+}
 @font-face {
     font-family: 'Circe';
     font-style: normal;
@@ -43,7 +48,7 @@ header{
 nav{
     position: absolute;
     /*posicionamento dos links*/
-    top: 180px;
+    top: 200px;
     right: 50px;
 }
 
@@ -97,7 +102,7 @@ form label, form p{/*vamos replicar a mesma configuração do form label para o 
 
 footer{
     text-align: center;
-    background-image: linear-gradient(to top, #b39973, #f1ece4);
+    background-color:#203550;
     /*Esta propriedade é utilizada para inserir imagens como plano de fundo de um elemento.
     Para isso,fazemos uso da função url(), para a qual passamos coo parâmetro o caminho da imagem a ser inserida*/
     /*ou background-image: url("");
@@ -110,15 +115,22 @@ footer{
 
 p{
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: #203550;
+}
+h1{
+
+    text-align: center;
+     font-size: 20px;
+     color:#c0a34e;
 }
 
 h2{
     text-align: center;
     font-size: 70px;
-    color:#203550;
+    color:#c0a34e;
 }
+
 body{
-     background: #f1ece4;
+    background-image: linear-gradient(to top,#b39973,#f1ece4,#b39973);
 }
