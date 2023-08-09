@@ -21,6 +21,11 @@ header{
     height: 250px;
     border: 2px solid #919191;
 }
+#produtos{
+    border-radius: 3px;
+    width: 1000px;
+    height: 570px;
+}
 @font-face {
     font-family: 'Circe';
     font-style: normal;
@@ -109,7 +114,7 @@ footer{
     é utilizada para inserir imagens como plano de fundo de um elemento.
     Para isso, fazemos uso da função url('')*/
 
-    padding: 10px 0;
+    padding: 20px 0;
 
 }
 
@@ -129,8 +134,13 @@ h2{
     text-align: center;
     font-size: 70px;
     color:#c0a34e;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #917931;
 }
 
 body{
-    background-image: linear-gradient(to top,#b39973,#f1ece4,#b39973);
+    background-image: linear-gradient(to top,#e9d0ac,#f1ece4,#e9d0ac);
 }
+
+
+
