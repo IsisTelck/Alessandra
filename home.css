@@ -138,6 +138,19 @@ h2{
     -webkit-text-stroke-color: #917931;
 }
 
+h3{
+
+    text-align: center;
+     font-size: 60px;
+     color:#c0a34e;
+}
+h4{
+
+    text-align: center;
+     font-size: 13px;
+     color:#c0a34e;
+}
+
 body{
     background-image: linear-gradient(to top,#f9fae3,#f1ece4,#f9fae3);
 }
