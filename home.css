@@ -26,6 +26,27 @@ header{
     width: 1000px;
     height: 570px;
 }
+#imgex{
+    border-radius: 6px 6px;
+    width: 400px;
+    height: 450px;
+    object-position: 40px;
+    
+}
+#compra{
+    border-radius: 6px 6px;
+    width: 400px;
+    height: 400px;
+     
+}
+#dart{
+    border-radius: 6px 6px;
+    width: 400px;
+    height: 400px;
+    filter:grayscale(2)
+     
+}
+
 @font-face {
     font-family: 'Circe';
     font-style: normal;
@@ -98,6 +119,28 @@ form label, form p{/*vamos replicar a mesma configuração do form label para o 
     padding: 10px 25px; /*10px p/cima e p/baixo, 25px p/ os lados*/
     width: 50%; /*largura dos meus inputs*/
 }
+.checkbox{
+    margin: 20px 0; /*20px p/ cima e p/baixo e zero nas laterais*/
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: #696969;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: #b4b4b4;
+    transform: scale(1.2);
+
+}
 
 .copyright{
     color: rgb(255, 255, 255);
@@ -136,6 +179,7 @@ h2{
     color:#c0a34e;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #917931;
+    border-bottom: 4px solid rgb(206, 206, 206);  
 }
 
 h3{
